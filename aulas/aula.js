@@ -126,19 +126,22 @@ formado por varias palavras*/
  * trocar valores das variaveis
  */
 //Minha solução
-let a = 7
-let b = 94
-let troca1 = a
-let troca2 = b
-a = troca2
-b = troca1
+// let a = 7
+// let b = 94
+// let troca1 = a
+// let troca2 = b
+// a = troca2
+// b = troca1
 
-console.log(a)
-console.log(b)
+// console.log(a)
+// console.log(b)
 
 //Solução Prof
 let a = 7
-let b = 94
+let b = 97
+let temp = a
+a = b
+b = temp
 
 console.log(a)
 console.log(b)
