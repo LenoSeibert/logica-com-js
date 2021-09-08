@@ -92,3 +92,19 @@ formado por varias palavras*/
 
 // let idade = 35
 // console.log(typeof idade)
+
+/**
+ * var/let pode receber outro valor
+ * var pode ser redeclarada
+ * let nao pode ser redeclarada por
+ * a variavel const recebe um valor
+ * constante e não pode ser alterado
+ *
+ */
+// let a = 1
+// console.log(a)
+// a = a + 10
+// console.log(a)
+
+// const nomeVar = a + 15
+// console.log(nomeVar)
