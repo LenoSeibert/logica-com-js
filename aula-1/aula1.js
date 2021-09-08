@@ -71,3 +71,24 @@ formado por varias palavras*/
 
 // produto = 'Caneta BIC'
 // console.log(produto)
+
+/**
+ *
+ * variavel identificador atribuição
+ * var/let    nomeVar      "algo"
+ *
+ */
+
+// let produto = 'caderno' // sting (texto) -> sequencia de letras
+// let categoria = 'Papelaria'
+// console.log(produto + ' ' + categoria)
+
+/**
+ * Tipos de dados
+ * string => texto
+ * number => numeros
+ * boolean => verdadeiro/falso true/false
+ */
+
+// let idade = 35
+// console.log(typeof idade)
