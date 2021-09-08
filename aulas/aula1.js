@@ -114,10 +114,14 @@ formado por varias palavras*/
  * PI = 3.141592
  * PI * raio * raio
  */
-const pi = 3.141592653589793
-const raio = 2.1
-let areaCirc = pi * raio * raio
-console.log('A área do circulo é ' + areaCirc + ' m²')
+// const pi = 3.141592653589793
+// const raio = 2.1
+// let areaCirc = pi * raio * raio
+// console.log('A área do circulo é ' + areaCirc + ' m²')
 
-areaCirc = Math.PI * raio * raio
-console.log(areaCirc)
+// areaCirc = Math.PI * raio * raio
+// console.log(areaCirc)
+
+/**Desafio Troca
+ *
+ */
