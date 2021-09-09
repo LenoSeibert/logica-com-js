@@ -65,7 +65,13 @@
 // } else {
 //   console.log('Ficar em casa')
 // }
+
+/**Operador ternário */
+// const hora = 11
+// const saudacao = hora <= 11 ? 'Bom dia' : 'Boa Tarde'
+// console.log(saudacao)
+
 /**Operador ternário */
 const hora = 11
-const saudacao = hora <= 11 ? 'Bom dia' : 'Boa Tarde'
+const saudacao = hora <= 11 ? 'Bom dia' : hora <= 17 ? 'Boa Tarde' : 'Boa noite'
 console.log(saudacao)
