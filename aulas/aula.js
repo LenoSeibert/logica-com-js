@@ -160,5 +160,7 @@ if (operacao === '+') {
   result = a / b
 } else if (operacao === '%') {
   result = a % b
+} else {
+  result = 'Não é um operador valido'
 }
 console.log(result)
