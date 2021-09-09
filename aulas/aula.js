@@ -78,8 +78,30 @@
 
 /**Estruturas de controle */
 
-if (true) console.log('Executa')
+// if (true) console.log('Executa')
 
-if (false) console.log(' N Executa')
+// if (false) console.log(' N Executa')
 
-console.log('fim!')
+// console.log('fim!')
+
+// const nota = 9
+// const bomComportamento = true
+
+// if (nota >= 7 && bomComportamento) console.log('Parabéns!')
+
+// if (nota < 7 || !bomComportamento) console.log('Uma pena!')
+
+// console.log('Fim!')
+
+const nota = 9
+
+if (nota >= 9) {
+  console.log('Quadro de Honra!')
+  console.log('Parabéns!')
+} else if (nota >= 5) {
+  console.log('Voce precisa melhorar!')
+} else {
+  console.log('Você está em apuros')
+}
+
+console.log('Fim!')
