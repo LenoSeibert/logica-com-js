@@ -38,7 +38,7 @@
 
 // let w = 'texto'
 // w += ', mais um pouco de texto,'
-// w += ' oloquinho meu!!!!'
+// w += '  meu!!!!'
 // console.log(w)
 
 /**
@@ -107,18 +107,40 @@
 // console.log('Fim!')
 
 /**Desafio IF */
-const nota = 4.9
+// const nota = 4.9
 
-if (nota <= 10 && nota >= 9) console.log('A')
+// if (nota <= 10 && nota >= 9) console.log('A')
 
-if (nota < 9 && nota >= 7) console.log('B')
+// if (nota < 9 && nota >= 7) console.log('B')
 
-if (nota < 7 && nota >= 5) console.log('C')
+// if (nota < 7 && nota >= 5) console.log('C')
 
-if (nota < 5 && nota >= 4.5) console.log('D')
+// if (nota < 5 && nota >= 4.5) console.log('D')
 
-if (nota >= 0 && nota < 4.5) {
-  console.log('F')
-} else if (nota > 10 || nota < 0) {
-  console.log('Nota não existe!')
+// if (nota >= 0 && nota < 4.5) {
+//   console.log('F')
+// } else if (nota > 10 || nota < 0) {
+//   console.log('Nota não existe!')
+// }
+
+const hora = 10
+
+let saudacao
+
+if (hora < 12) {
+  saudacao = 'Bom dia!'
+} else {
+  if (hora < 17) {
+    saudacao = 'Boa Tarde!'
+  } else {
+    if (hora >= 18 && hora < 24) {
+      saudacao = 'Boa noite'
+    } else {
+      if (hora >= 24 || hora < 0) {
+        saudacao = 'Horario de Narnia!!'
+      }
+    }
+  }
 }
+
+console.log(saudacao)
