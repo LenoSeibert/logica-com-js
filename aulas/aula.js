@@ -27,16 +27,27 @@
 // console.log(a + a !== b)
 
 /**atribuição */
-let x = 10
-x = x + 6
-x = x - 1
-console.log(x)
+// let x = 10
+// x = x + 6
+// x = x - 1
+// console.log(x)
 
-let y = 20
-y += 10
-console.log(y)
+// let y = 20
+// y += 10
+// console.log(y)
 
-let w = 'texto'
-w += ', mais um pouco de texto,'
-w += ' oloquinho meu!!!!'
-console.log(w)
+// let w = 'texto'
+// w += ', mais um pouco de texto,'
+// w += ' oloquinho meu!!!!'
+// console.log(w)
+
+/**
+ * Desafio atribuição
+ */
+let texto = 'LISTA DE APROVADOS\n'
+texto += '==================\n\n'
+texto += '1. Ana Silva\n'
+texto += '2. Pedro Albuquerque\n'
+texto += '4. Guilherme Pereira\n'
+texto += '5. Rebeca França'
+console.log(texto)
