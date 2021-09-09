@@ -77,3 +77,9 @@
 // console.log(saudacao)
 
 /**Estruturas de controle */
+
+if (true) console.log('Executa')
+
+if (false) console.log(' N Executa')
+
+console.log('fim!')
