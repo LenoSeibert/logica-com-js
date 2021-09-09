@@ -44,10 +44,24 @@
 /**
  * Desafio atribuição
  */
-let texto = 'LISTA DE APROVADOS\n'
-texto += '==================\n\n'
-texto += '1. Ana Silva\n'
-texto += '2. Pedro Albuquerque\n'
-texto += '4. Guilherme Pereira\n'
-texto += '5. Rebeca França'
-console.log(texto)
+// let texto = 'LISTA DE APROVADOS\n'
+// texto += '==================\n\n'
+// texto += '1. Ana Silva\n'
+// texto += '2. Pedro Albuquerque\n'
+// texto += '4. Guilherme Pereira\n'
+// texto += '5. Rebeca França'
+// console.log(texto)
+
+/**
+ * OPERADORES LÓGICOS
+ */
+let t1 = true
+let t2 = false
+
+if (t1 && t2) {
+  console.log('Comprar tv 50"')
+} else if (t1 !== t2) {
+  console.log('Comprar tv 32"')
+} else {
+  console.log('Ficar em casa')
+}
