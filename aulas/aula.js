@@ -123,24 +123,42 @@
 //   console.log('Nota não existe!')
 // }
 
-const hora = 10
+// const hora = 10
 
-let saudacao
+// let saudacao
 
-if (hora < 12) {
-  saudacao = 'Bom dia!'
-} else {
-  if (hora < 17) {
-    saudacao = 'Boa Tarde!'
-  } else {
-    if (hora >= 18 && hora < 24) {
-      saudacao = 'Boa noite'
-    } else {
-      if (hora >= 24 || hora < 0) {
-        saudacao = 'Horario de Narnia!!'
-      }
-    }
-  }
+// if (hora < 12) {
+//   saudacao = 'Bom dia!'
+// } else {
+//   if (hora < 17) {
+//     saudacao = 'Boa Tarde!'
+//   } else {
+//     if (hora >= 18 && hora < 24) {
+//       saudacao = 'Boa noite'
+//     } else {
+//       if (hora >= 24 || hora < 0) {
+//         saudacao = 'Horario de Narnia!!'
+//       }
+//     }
+//   }
+// }
+
+// console.log(saudacao)
+/**Desafio IF ELSE */
+
+const a = 10
+const b = 28
+const operacao = '-' // + - * / %
+
+if (operacao === '+') {
+  result = a + b
+} else if (operacao === '-') {
+  result = a - b
+} else if (operacao === '*') {
+  result = a * b
+} else if (operacao === '/') {
+  result = a / b
+} else if (operacao === '%') {
+  result = a % b
 }
-
-console.log(saudacao)
+console.log(result)
