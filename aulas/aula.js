@@ -55,13 +55,17 @@
 /**
  * OPERADORES LÓGICOS
  */
-let t1 = true
-let t2 = false
+// let t1 = true
+// let t2 = false
 
-if (t1 && t2) {
-  console.log('Comprar tv 50"')
-} else if (t1 !== t2) {
-  console.log('Comprar tv 32"')
-} else {
-  console.log('Ficar em casa')
-}
+// if (t1 && t2) {
+//   console.log('Comprar tv 50"')
+// } else if (t1 !== t2) {
+//   console.log('Comprar tv 32"')
+// } else {
+//   console.log('Ficar em casa')
+// }
+/**Operador ternário */
+const hora = 11
+const saudacao = hora <= 11 ? 'Bom dia' : 'Boa Tarde'
+console.log(saudacao)
