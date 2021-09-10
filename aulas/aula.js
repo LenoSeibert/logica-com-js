@@ -168,11 +168,40 @@
 //   console.log('Laço infinito')
 // }
 
-let quantidade = 0
-// indeterminada de repetições
-while (Math.random() < 0.97) {
-  quantidade++
-  console.log(quantidade)
+// let quantidade = 0
+// // indeterminada de repetições
+// while (Math.random() < 0.97) {
+//   quantidade++
+//   console.log(quantidade)
+// }
+
+// console.log('Qtde: ' + quantidade)
+
+// const futuro = Date.now() + 2000
+// let quantidade = 0
+
+// while (Date.now() < futuro) {
+//   quantidade++
+// }
+
+// console.log('Qtde: ' + quantidade)
+
+/** Tempo em ms de do dia
+ * 1 janeiro de 1970
+ * */
+//console.log(Date.now())
+/** Essa é uma data base para o calculo
+ * data usada no UNIX
+ */
+// const teste = 1
+// while (teste < 10) {
+//   console.log(teste)
+// }
+let controle = 1
+
+while (controle <= 10 * 10) {
+  console.log(controle)
+  controle++
 }
 
-console.log('Qtde: ' + quantidade)
+console.log('Fim!')
