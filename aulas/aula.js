@@ -221,13 +221,20 @@
 // console.log('Fim!')
 // 7, 6, 5, 4, 3
 
-for (let num = 7; num >= 3; num--) {
-  console.log(num)
-}
-console.log('Fim')
+// for (let num = 7; num >= 3; num--) {
+//   console.log(num)
+// }
+// console.log('Fim')
 
-for (let i = 7; i >= 3; i--) {
-  console.log(i)
-}
+// for (let i = 7; i >= 3; i--) {
+//   console.log(i)
+// }
 
-console.log('Fim!')
+// console.log('Fim!')
+for (let index = 1; index <= 3; index++) {
+  let linha = ''
+  for (let j = 1; j <= 3; j++) {
+    linha += `[${index}, ${j}] `
+  }
+  console.log(linha)
+}
