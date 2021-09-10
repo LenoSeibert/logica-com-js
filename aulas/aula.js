@@ -206,8 +206,16 @@
 
 // console.log('Fim!')
 
-for (let controle = 1; controle <= 10; controle++) {
+// for (let controle = 1; controle <= 10; controle++) {
+//   console.log(controle)
+// }
+
+// console.log('Fim!')
+let controle = 1
+
+for (; controle <= 100000; ) {
   console.log(controle)
+  controle++
 }
 
 console.log('Fim!')
