@@ -197,11 +197,17 @@
 // while (teste < 10) {
 //   console.log(teste)
 // }
-let controle = 1
+// let controle = 1
 
-while (controle <= 10 * 10) {
+// while (controle <= 10 * 10) {
+//   console.log(controle)
+//   controle++
+// }
+
+// console.log('Fim!')
+
+for (let controle = 1; controle <= 10; controle++) {
   console.log(controle)
-  controle++
 }
 
 console.log('Fim!')
