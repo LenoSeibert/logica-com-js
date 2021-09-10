@@ -211,11 +211,23 @@
 // }
 
 // console.log('Fim!')
-let controle = 1
+// let controle = 1
 
-for (; controle <= 100000; ) {
-  console.log(controle)
-  controle++
+// for (; controle <= 100; ) {
+//   console.log(controle)
+//   controle++
+// }
+
+// console.log('Fim!')
+// 7, 6, 5, 4, 3
+
+for (let num = 7; num >= 3; num--) {
+  console.log(num)
+}
+console.log('Fim')
+
+for (let i = 7; i >= 3; i--) {
+  console.log(i)
 }
 
 console.log('Fim!')
