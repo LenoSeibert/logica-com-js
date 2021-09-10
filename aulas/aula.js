@@ -146,21 +146,33 @@
 // console.log(saudacao)
 /**Desafio IF ELSE */
 
-const a = 10
-const b = 28
-const operacao = '-' // + - * / %
+// const a = 10
+// const b = 28
+// const operacao = '-' // + - * / %
 
-if (operacao === '+') {
-  result = a + b
-} else if (operacao === '-') {
-  result = a - b
-} else if (operacao === '*') {
-  result = a * b
-} else if (operacao === '/') {
-  result = a / b
-} else if (operacao === '%') {
-  result = a % b
-} else {
-  result = 'Não é um operador valido'
+// if (operacao === '+') {
+//   result = a + b
+// } else if (operacao === '-') {
+//   result = a - b
+// } else if (operacao === '*') {
+//   result = a * b
+// } else if (operacao === '/') {
+//   result = a / b
+// } else if (operacao === '%') {
+//   result = a % b
+// } else {
+//   result = 'Não é um operador valido'
+// }
+// console.log(result)
+// while (false) {
+//   console.log('Laço infinito')
+// }
+
+let quantidade = 0
+// indeterminada de repetições
+while (Math.random() < 0.97) {
+  quantidade++
+  console.log(quantidade)
 }
-console.log(result)
+
+console.log('Qtde: ' + quantidade)
