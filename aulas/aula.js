@@ -231,10 +231,22 @@
 // }
 
 // console.log('Fim!')
-for (let index = 1; index <= 3; index++) {
-  let linha = ''
-  for (let j = 1; j <= 3; j++) {
-    linha += `[${index}, ${j}] `
-  }
-  console.log(linha)
-}
+// for (let index = 1; index <= 3; index++) {
+//   let linha = ''
+//   for (let j = 1; j <= 3; j++) {
+//     linha += `[${index}, ${j}] `
+//   }
+//   console.log(linha)
+// }
+const i = 2
+const j = 4
+
+console.log('i = ' + i + ', j = ' + j)
+console.log('i = ' + i + ', j = ' + j)
+
+console.log(`i = ${i}, j = ${j}`)
+console.log(`1 + 2 = ${1 + 2}`)
+console.log(`Valor gerado foi: ${Math.random()}`)
+
+console.log('i = ${i}, j = ${j}')
+console.log('i = ${i}, j = ${j}')
