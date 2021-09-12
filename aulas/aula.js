@@ -266,30 +266,70 @@
 // for (let s = '#'; s != '#######'; s += '#') {
 //   console.log(s)
 // }
-let nota = 10
+// let nota = 10
 
-switch (Math.ceil(nota)) {
-  case 10:
-  case 9:
-  case 8:
-  case 7:
-    console.log('Parabéns! Você Passou!')
+// switch (Math.ceil(nota)) {
+//   case 10:
+//   case 9:
+//   case 8:
+//   case 7:
+//     console.log('Parabéns! Você Passou!')
+//     break
+//   case 6:
+//   case 5:
+//     console.log('Recuperação!')
+//     break
+//   case 4:
+//   case 3:
+//   case 2:
+//     console.log('Reprovado! ')
+//     break
+//   case 1:
+//   case 0:
+//     console.log('Muito Reprovado!')
+//     break
+//   default:
+//     console.log('Nota inválida!')
+// }
+
+// console.log('Fim!')
+
+const conceito = 'A'
+
+switch (conceito) {
+  case 'A+':
+    console.log(10)
     break
-  case 6:
-  case 5:
-    console.log('Recuperação!')
+  case 'A':
+    console.log(9)
     break
-  case 4:
-  case 3:
-  case 2:
-    console.log('Reprovado! ')
+  case 'B+':
+    console.log(8)
     break
-  case 1:
-  case 0:
-    console.log('Muito Reprovado!')
+  case 'B':
+    console.log(7)
+    break
+  case 'C+':
+    console.log(6)
+    break
+  case 'C':
+    console.log(5)
+    break
+  case 'D+':
+    console.log(4)
+    break
+  case 'D':
+    console.log(3)
+    break
+  case 'E+':
+    console.log(2)
+    break
+  case 'E':
+    console.log(1)
+    break
+  case 'F':
+    console.log(0)
     break
   default:
-    console.log('Nota inválida!')
+    console.log('Conceito inválido!')
 }
-
-console.log('Fim!')
