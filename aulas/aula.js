@@ -63,8 +63,71 @@
 // exibirData(d2, m2, a2)
 // exibirData(d2, m2, a2)
 
-function soma(n1, n2, n3) {
-  console.log(n1 + n2 / n3)
-}
-soma(10, 10, 10)
-soma(10, 10, 1)
+// function soma(n1, n2, n3) {
+//   console.log(n1 + n2 / n3)
+// }
+// soma(10, 10, 10)
+// soma(10, 10, 1)
+// let a
+// let b = 7
+// let c = null // nil
+// let d = 0
+
+// console.log(a, b, c)
+// console.log(a + b)
+// console.log(b + c + 1)
+// console.log(b + d + 1)
+// Parâmetro (Nota) -> Retorno (Conceito)
+
+// function notaParaConceito(nota) {
+//   switch (Math.ceil(nota)) {
+//     case 10:
+//       return 'A+'
+//     case 9:
+//       return 'A'
+//     case 8:
+//       return 'B+'
+//     case 7:
+//       return 'B'
+//     case 6:
+//       return 'C+'
+//     case 5:
+//       return 'C'
+//     case 4:
+//       return 'D+'
+//     case 3:
+//       return 'D'
+//     case 2:
+//       return 'E+'
+//     case 1:
+//       return 'E'
+//     case 0:
+//       return 'F'
+//     default:
+//       return null
+//   }
+// }
+
+// console.log(`O conceito do Bruno é ${notaParaConceito(6.001)}`)
+// console.log(`O conceito da Laura é ${notaParaConceito(8.9)}`)
+
+// function sempreRetornaUm() {
+//   return 1
+// }
+
+// function textoOuNumero(retornaTexto) {
+//   // return retornaTexto ? "Sou um texto!" : 123;
+//   if (retornaTexto) {
+//     return 'Sou um texto!'
+//   }
+
+//   return 123
+// }
+
+// let valor = sempreRetornaUm() + 999
+// console.log(valor)
+
+// let texto = textoOuNumero(true)
+// console.log(texto)
+
+// console.log(textoOuNumero(false))
