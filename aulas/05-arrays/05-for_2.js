@@ -1,18 +1,18 @@
-const notas = [7, 8, 3, 5, 10, 9, 8, 8];
+const notas = [7, 8, 3, 5, 10, 9, 8, 8]
 
-let valores = '';
+let valores = ''
 
 // foreach
-for(let nota of notas) {
-    valores += nota + ' ';
+for (let nota of notas) {
+  valores += nota + ' '
 }
 
-console.log(valores);
+console.log(valores)
 
-let indices = '';
+let indices = ''
 
-for(let indice in notas) {
-    indices += indice + ' ';
+for (let indice in notas) {
+  indices += indice + ' '
 }
 
-console.log(indices);
+console.log(indices)
